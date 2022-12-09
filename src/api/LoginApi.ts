@@ -7,3 +7,8 @@ export const getLoginInfo = async (code : string | null) => {
   });
   return result.data;
 }
+
+export const getUserInfo = async (userSysId: any) => {
+  const result = await axiosGetRequest(`/accounts/${userSysId}`);
+  return result.data;
+}

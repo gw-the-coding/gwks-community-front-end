@@ -1,13 +1,13 @@
 import Board from "../interface/Board";
 import axios from "axios";
 
-export const writeBoard= (request: Board) => {
+export const writeBoard= async (request: Board) => {
 
   const formData = new FormData();
   for(const key in request) {
     formData.append(key, request[key]);
   }
-  axios.post("http://localhost:8080/api/v1/board", formData);
+  await axios.post("http://localhost:8080/api/v1/board", formData);
 }
 
 export const getBoard = async (boardId: string) => {

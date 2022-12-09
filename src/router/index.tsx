@@ -3,6 +3,8 @@ import Board from "../pages/board/BoardPage";
 import SignInPage from "../pages/login/SignInPage";
 import KakaoLoginPage from "../pages/login/KakaoLoginPage";
 import KakaoLoginRedirectionPage from "../pages/login/KakaoLoginRedirectionPage";
+import JoinPage from "../pages/login/JoinPage";
+import MyPage from "../pages/login/MyPage";
 
 const router = createBrowserRouter([
   {
@@ -10,7 +12,7 @@ const router = createBrowserRouter([
     element: <Board />
   },
   {
-    path: "/signin",
+    path: "/login",
     element: <SignInPage />
   },
   {
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
   {
     path: "/login/kakao/callback",
     element: <KakaoLoginRedirectionPage />
+  },
+  {
+    path: "/join",
+    element: <JoinPage />
+  },
+  {
+    path: "/mypage",
+    element: <MyPage />
   },
   {
     path: "/:communityId",

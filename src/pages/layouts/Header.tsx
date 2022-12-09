@@ -8,7 +8,7 @@ export default function Header () {
         <div className="container-fluid">
           <a className="navbar-brand" href="#">광성교회 청년마을</a>
           <form className="d-flex">
-            <button className="btn btn-warning" onClick={() => navigate("/signin")} >로그인</button>
+            <button className="btn btn-warning" onClick={() => navigate("/login")} >로그인</button>
           </form>
         </div>
       </nav>

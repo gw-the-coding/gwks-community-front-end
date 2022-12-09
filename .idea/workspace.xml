@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c6dee46-8fe2-4849-a2b0-f6df41e3db76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/login/JoinPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/MyPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/UsersService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/LoginApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/LoginApi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/layouts/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/layouts/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/KakaoLoginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/KakaoLoginPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/KakaoLoginRedirectionPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/KakaoLoginRedirectionPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/BoardService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/BoardService.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="com.haulmont.rcb.palette" />
+        <option value="com.haulmont.rcb.previews" />
+        <option value="com.haulmont.rcb.index" />
+        <option value="com.haulmont.rcb.useInitial" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HqBC5xwDpbi4EJLG9UC7zsqNr5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kimdoryeong/git/gwks-community-front",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/kimdoryeong/git/gwks-community-front/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views/board" />
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c6dee46-8fe2-4849-a2b0-f6df41e3db76" name="Changes" comment="" />
+      <created>1669002604172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669002604172</updated>
+      <workItem from="1669002606565" duration="3964000" />
+      <workItem from="1669008239914" duration="12705000" />
+      <workItem from="1669094485102" duration="10507000" />
+      <workItem from="1669702279001" duration="5440000" />
+      <workItem from="1669851808900" duration="438000" />
+      <workItem from="1669975767636" duration="22000" />
+      <workItem from="1669975800222" duration="3379000" />
+      <workItem from="1670204730761" duration="7886000" />
+      <workItem from="1670480820623" duration="12796000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/board/BoardPage.tsx</url>
+          <line>37</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

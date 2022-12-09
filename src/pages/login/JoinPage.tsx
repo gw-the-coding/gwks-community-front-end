@@ -12,7 +12,7 @@ export default function JoinPage(props: any) {
   const [name, setName] = useState('' as string);
   const [nickName, setNickName] = useState('' as string);
   const [birthyear, setBirthyear] = useState('' as string);
-  const [communitySysId, setCommunitySysId] = useState('0' as string);
+  const [community, setCommunity] = useState('NOT_YET' as string);
 
   function submitJoin(event: any) {
     event.preventDefault();
@@ -22,7 +22,7 @@ export default function JoinPage(props: any) {
       name,
       nickName,
       birthyear,
-      communitySysId
+      community
     }
     joinUser(userData);
     return;
@@ -123,21 +123,21 @@ export default function JoinPage(props: any) {
                   id="exampleSelect"
                   name="select"
                   type="select"
-                  onChange={(v) => setCommunitySysId(v.target.value)}
+                  onChange={(v) => setCommunity(v.target.value)}
                 >
-                  <option value={''}>
+                  <option value={'NOT_YET'}>
                     미정
                   </option>
-                  <option value={'1'}>
+                  <option value={'ONE'}>
                     1청년부
                   </option>
-                  <option value={'2'}>
+                  <option value={'TWO'}>
                     2청년부
                   </option>
-                  <option value={'3'}>
+                  <option value={'THREE'}>
                     3청년부
                   </option>
-                  <option value={'4'}>
+                  <option value={'MERRY_BRIDGE'}>
                     신혼브릿지
                   </option>
                 </Input>

@@ -5,5 +5,5 @@ export const joinUser = async (users: any) => {
   for(const key in users) {
     formData.append(key, users[key]);
   }
-  await axios.put(`http://localhost:8080/api/v1/accounts/${users.userSysId}`, formData);
+  return await axios.put(`http://localhost:8080/api/v1/accounts/${users.userSysId}`, formData);
 }

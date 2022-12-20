@@ -3,10 +3,17 @@ import TopMenu from "../layouts/TopMenu";
 import {Button, Col, Form, FormGroup, Input, Label} from "reactstrap";
 import {useState} from "react";
 import {joinUser} from "../../service/UsersService";
+import {useNavigate} from "react-router-dom";
 
 export default function JoinPage(props: any) {
+
+  const navigate = useNavigate();
+
   const userSysId = new URL(window.location.href).searchParams.get("userSysId")??"";
   const initialEmail = new URL(window.location.href).searchParams.get("email")??"";
+  if (userSysId === "") {
+    
+  }
 
   const [email, setEmail] = useState(initialEmail as string);
   const [name, setName] = useState('' as string);
@@ -14,7 +21,7 @@ export default function JoinPage(props: any) {
   const [birthyear, setBirthyear] = useState('' as string);
   const [community, setCommunity] = useState('NOT_YET' as string);
 
-  function submitJoin(event: any) {
+  async function submitJoin(event: any) {
     event.preventDefault();
     const userData = {
       userSysId,
@@ -24,7 +31,11 @@ export default function JoinPage(props: any) {
       birthyear,
       community
     }
-    joinUser(userData);
+    const result = await joinUser(userData);
+    if (result.data.resultCode === '0001') {
+      alert('회원가입에 성공하였습니다.');
+      navigate("/");
+    }
     return;
   }
 

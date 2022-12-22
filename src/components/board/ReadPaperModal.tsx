@@ -18,8 +18,6 @@ export default function ReadPaperModal ({modalStatus, setModalStatus}: any, data
   const communitys = communityList();
   const categorys = categoryList();
 
-  console.log(data.boardId);
-
   const canClose = () => {
     const sendBoard:Board= {
       title,

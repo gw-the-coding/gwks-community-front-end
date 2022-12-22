@@ -12,7 +12,7 @@ export default function JoinPage(props: any) {
   const userSysId = new URL(window.location.href).searchParams.get("userSysId")??"";
   const initialEmail = new URL(window.location.href).searchParams.get("email")??"";
   if (userSysId === "") {
-    
+
   }
 
   const [email, setEmail] = useState(initialEmail as string);

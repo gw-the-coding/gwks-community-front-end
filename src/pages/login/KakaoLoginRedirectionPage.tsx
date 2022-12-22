@@ -16,7 +16,13 @@ export default function KakaoLoginRedirectionPage (props: any) {
         navigate(`/join/?userSysId=${userSysId}&email=${userData.email}`)
         return;
       } else {
-        navigate(`/`)
+        StorageUtil.local.setItem("accessToken", userData.accessToken);
+        StorageUtil.local.setItem("userSysId", userData.userSysId);
+        StorageUtil.local.setItem("state", JSON.stringify(userData.state));
+        StorageUtil.local.setItem("userName",userData.name);
+        StorageUtil.local.setItem("userData", JSON.stringify(userData));
+        StorageUtil.local.setItem("level",JSON.stringify(userData.authority));
+        navigate("/");
       }
     };
     doTokenValidate();

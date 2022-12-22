@@ -24,7 +24,6 @@ export default function BoardPage (props: any) {
 
   const getBoardDataFromApi = async (boardId: string) => {
     let board = await getBoard(boardId);
-    console.log(board)
     setBoardData(board);
     setReadModalState(true);
   }
